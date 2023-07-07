@@ -1,77 +1,245 @@
-1	Japanese	application/x-vnd.artpaint	3981580643
+1	Japanese	application/x-vnd.artpaint	3601114434
 {0, plural,one{%project_name%: You have made a change since the last time the project was saved.\nDo you want to save the change?}other{%project_name%: You have made # changes since the last time the project was saved.\nDo you want to save the changes?}}	ImageView		{0, plural,one{%project_name%: プロジェクトが最後に保存されてから変更があります。\n変更を保存しますか?}other{%project_name%: プロジェクトが最後に保存されてから#箇所の変更があります。\n変更を保存しますか?}}
-Cancel	ImageView		キャンセル
-Don't save	ImageView		保存しない
-Drop layer to copy it to this image.	ImageView		レイヤーをドロップしてこの画像にコピーします。
-Finishing	ImageView		完了中
-Grow selection	ImageView		選択範囲を拡大
-Invert selection	ImageView		選択範囲の反転
-Layer %ld / %ld	ImageView		レイヤー %ld / %ld
-Not enough free memory to add a layer. You can free more memory by disabling the undo and closing other images. It is also a good idea to save the image now because running out of memory later on might make saving difficult or impossible. I am very sorry about this inconvenience.	ImageView		レイヤーを追加するのに必要な空きメモリーがありません。元に戻すことを無効にすることや他の画像を閉じることでより多くのメモリーを開放できます。ただちに作業を保存しておくのも良い考えです。それは後でメモリーが完全になくなると保存が難しくなるかできなくなるかもしれないからです。ご不便をおかけしてすみません。
-Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		要求された効果を完了するのに必要な空きメモリーがありません。他の画像を閉じて再度試してみることができます。元に戻せる回数を減らすことや元に戻すことを無効にすることのどちらもメモリーを増やすことへの助けとなります。他に動いているアプリケーションがあるなら、それらを閉じることでより多くの空きメモリーが得られます。この時点で作業を保存しておくのも良い考えです。それはメモリが完全になくなると保存ができなくなるかもしれないからです。ご不便をおかけしてすみません。
-Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		要求された効果を開始するための十分な空きメモリがありません。他の画像を閉じて再度試してみることができます。元に戻せる回数を減らすことや元に戻すことを無効にすることのどちらもメモリを増やすことへの助けとなります。他に動いているアプリケーションがあるなら、それらを閉じることでより多くの空きメモリが得られます。この時点で作業を保存しておくのも良い考えです。それはメモリが完全になくなると保存ができなくなるかもしれないからです。ご不便をおかけしてすみません。
-OK	ImageView		OK
-Save	ImageView		保存
-Select all	ImageView		Select all
-Select non-transparent	ImageView		Select non-transparent
-Select none	ImageView		Select none
-Shrink selection	ImageView		選択範囲を縮小
-Unsaved changes!	ImageView		保存されていない変更!
 About ArtPaint	PaintWindow		ArtPaintについて
 Active layer	PaintWindow		アクティブレイヤー
 Add	PaintWindow		追加
+Add	LayerWindow		追加
+Add layer	Image		レイヤーを追加
 Add-ons	PaintWindow		アドオン
+Add-ons	Windows		アドオン
 Adds a layer to the top of this image.	PaintWindow		レイヤーを画像の前面に追加します。
-All	PaintWindow		All
+Adjustable	Windows		調節可能
+Adjustable width	Tools		幅を調節可能
+Adjusting the layer's transparency.	Tools		レイヤーの透明度を調整します。
+Airbrush	Tools		エアブラシ
+Airbrush tool	Tools		エアブラシツール
+All	PaintWindow		すべて
 All layers	PaintWindow		すべてのレイヤー
-All non-transparent	PaintWindow		All non-transparent
+All non-transparent	PaintWindow		すべての不透明部
+Alpha	Tools		アルファ
+Alpha	ColorSliders	For color sliders	透過度
+Amount of paint:	Tools		ペイント量:
+Angle:	Tools		角度:
+Angle:	Manipulators		角度:
+Application	Windows		アプリケーション
+ArtPaint	System name		ArtPaint
+ArtPaint is a painting and image-processing program for Haiku.	PaintApplication		ArtPaintは、Haiku用のペイントおよび画像処理ソフトです。
+ArtPaint project	PaintApplication	MIME type short description	ArtPaintプロジェクト
+ArtPaint project format containing layers etc.	PaintApplication	MIME type long description	ArtPaintプロジェクトフォーマット(レイヤーなどを含む)。
+ArtPaint: Open color set…	ColorPalette		ArtPaint: カラーセットを開く…
+ArtPaint: Open image…	PaintApplication		ArtPaint: 画像を開く…
+ArtPaint: Open project…	PaintApplication		ArtPaint: プロジェクトを開く…
+ArtPaint: Save image	FilePanels		ArtPaint: 画像を保存
+Aspect:	Tools		アスペクト:
+Background color	Tools		背景色
+Bicubic	ScaleUtilities		バイキュービック
+Bicubic (B-spline)	ScaleUtilities		バイキュービック (B-spline)
+Bicubic (Catmull-Rom)	ScaleUtilities		バイキュービック (Catmull-Rom)
+Bilinear	ScaleUtilities		バイリニア
+Black	ColorSliders	For CMYK color slider	ブラック
+Blend mode	ImageView		ブレンドモード
+Blue	Tools		ブルー
+Blue	ColorSliders	For RGB color sliders	ブルー
+Blur tool	Tools		ぼかしツール
+Blurring the image.	Tools		画像をぼかします。
+Brush	Windows		ブラシ
+Brush	StatusView		ブラシ
+Brush tool	Tools		ブラシツール
+Brushes	Windows		ブラシ
 Brushes…	PaintWindow		ブラシ…
+Bummer	UndoQueue		残念
+Cancel	ImageView		キャンセル
+Cancel	Windows		キャンセル
+Cancel	FilePanels		キャンセル
+Cannot delete the only color set.	ColorPalette		カラーセットはこれ以上削除できません。
+Cannot delete the only layer. Create another picture to get a fresh start.	Image		レイヤーはこれ以上削除できません。新しい画像を作成して最初から開始してください。
+Cannot write to file	ColorPalette		ファイルに書き込めません
 Canvas	PaintWindow		キャンバス
-Clears the selection or layer.	PaintWindow		Clears the selection or layer.
+Change the transparency with the slider.	Manipulators		スライダーで透明度を変更します。
+Change transparency…	Manipulators		透明度を変更…
+Channel a	ColorSliders	For CIELAB color sliders - also called L*a*b* color	チャンネル a
+Channel b	ColorSliders	For CIELAB color sliders - also called L*a*b* color	チャンネル b
+Choose format	FilePanels		形式を選択
+Clears the selection or layer.	PaintWindow		選択部またはレイヤーをクリアします。
+Click to place the text.	Tools		クリックしてテキストを配置します。
+Click to select a painting color.	ColorPalette		クリックしてペイントする色を選択します。
+Click to use the tool.	Tools		クリックしてツールを使います。
 Close	PaintWindow		閉じる
 Closes the current window.	PaintWindow		現在のウィンドウを閉じます。
+Color burn	PixelOperations		焼き込み
+Color dodge	PixelOperations		覆い焼き
+Color model	ColorPalette		カラーモデル
+Color picker tool	Tools		カラーピッカーツール
+Color picker window	Tools		カラーピッカーウィンドウ
+Color set	ColorPalette		カラーセット
+Color variance:	Tools		色変動:
+Colors	Windows		カラー
+Colors	ColorPalette		カラー
+Colors:	Windows		カラー:
 Colors…	PaintWindow		カラー…
+Conic	Tools		円錐
+Continuous	Tools		連続
 Copies the selection of all layers.	PaintWindow		全レイヤーの選択範囲をコピーします。
 Copies the selection.	PaintWindow		選択範囲をコピーする。
 Copy	PaintWindow		コピー
 Create canvas	PaintWindow		キャンバスを作成
 Creates a new empty canvas.	PaintWindow		新しい空のキャンバスを作成します。
+Crop: Use handles or number-fields to set new borders. SHIFT locks aspect ratio.	Manipulators		トリミング: ハンドルまたは数字フィールドを使用して新しい境界を設定します。SHIFT でアスペクト比を固定します。
 Crop…	PaintWindow		トリミング…
-Crops the canvas.	PaintWindow		Crops the canvas.
+Crop…	Manipulators		トリミング…
+Crops the canvas.	PaintWindow		キャンバスをトリミングします。
+Cross-hair cursor	Windows		クロスヘアカーソル
+Cursor	Windows		カーソル
 Cut	PaintWindow		切り取り
 Cuts the selection from all layers to the clipboard.	PaintWindow		すべてのレイヤーの選択範囲をクリップボードへ切り取ります。
 Cuts the selection to the clipboard.	PaintWindow		選択範囲をクリップボードへ切り取ります。
+Cyan	ColorSliders	For CMYK color slider	シアン
+Darken	PixelOperations		比較 (暗)
+Datatype setup: %name%	Windows		データタイプ設定: %name%
+Defaults	Windows		デフォルト
 Delete	PaintWindow		削除
+Delete	LayerWindow		削除
+Delete	Image		削除
+Delete current set	ColorPalette		現在のカラーセットを削除
+Delete layer	Image		レイヤーを削除
+Delete selected brush	Windows		選択されたブラシを削除
 Deletes the selected layer.	PaintWindow		選択されたレイヤーを削除します。
+Difference	PixelOperations		差の絶対値
+Dissolve	PixelOperations		ディザ合成
+Divide	PixelOperations		除算
+Don't save	ImageView		保存しない
+Drag the text to correct position and set its appearance.	Tools		テキストをドラッグして位置を修正し、外観を設定します。
+Drawing a freehand line.	Tools		フリーハンドの線を描く。
+Drawing a rectangle.	Tools		四角形を描く。
+Drawing a straight line.	Tools		直線を描く。
+Drawing an ellipse.	Tools		楕円を描く。
+Drop a color from the Colors window	Windows		カラーウィンドウから色をドラッグします。
+Drop layer to copy it to this image.	ImageView		レイヤーをドロップしてこの画像にコピーします。
 Duplicate	PaintWindow		複製
+Duplicate	LayerWindow		複製
 Duplicates the selected layer.	PaintWindow		選択されたレイヤーを複製します。
 Edit	PaintWindow		編集
+Ellipse	Tools		楕円
+Ellipse tool	Tools		楕円ツール
+Ellipse: SHIFT for circle, ALT for centered	Tools		楕円: SHIFTで円を描く。 ALTで中央から描く for centered
 Empty paint window	PaintWindow		空のペイントウィンドウ
+Enable antialiasing	Tools		アンチエイリアスを有効にする
+Enable antialiasing	Manipulators		アンチエイリアスを有効にする
+Enable gradient	Tools		グラデーションを有効にする
+Enable preview	Tools		プレビューを有効にする
+Enable rotation	Tools		回転を有効にする
+Eraser tool	Tools		消しゴムツール
+Erasing pixels.	Tools		ピクセルを消去します。
+Error reading file	ColorPalette		ファイルの読み込みに失敗しました
+Exclusion	PixelOperations		除外
 File	PaintWindow		ファイル
+File structure corrupted	ColorPalette		ファイル構造が壊れています
+Fill ellipse	Tools		楕円の塗りつぶし
+Fill rectangle	Tools		四角形の塗りつぶし
+Fill tool	Tools		塗りつぶしツール
+Filter:	Manipulators		フィルター:
+Finishing	ImageView		完了中
 Flip horizontally	PaintWindow		水平方向に反転
+Flip horizontally	Manipulators		水平方向に反転
 Flip vertically	PaintWindow		垂直方向に反転
+Flip vertically	Manipulators		垂直方向に反転
 Flips all layers horizontally.	PaintWindow		すべてのレイヤーを水平方向に反転します。
 Flips all layers vertically.	PaintWindow		すべてのレイヤーを垂直方向に反転します。
 Flips the active layer horizontally.	PaintWindow		アクティブレイヤーを水平方向に反転します。
 Flips the active layer vertically.	PaintWindow		アクティブレイヤーを垂直方向に反転します。
-Grow	PaintWindow		Grow
+Flood fill	Tools		塗りつぶし
+Flow:	Tools		フロー:
+Font:	Manipulators		フォント:
+Free 2D transform	FreeTransformManipulator		自由な2D移動
+Freehand	Tools		フリーハンド
+Freehand line tool	Tools		フリーハンドツール
+Green	Tools		グリーン
+Green	ColorSliders	For RGB color sliders	グリーン
+Grid size:	Windows		グリッドサイズ:
+Grow	PaintWindow		拡大
+Grow selection	ImageView		選択範囲を拡大
 Grows the selection in all directions.	PaintWindow		選択範囲を全方向に拡大します。
+Hairs:	Tools		毛量:
+Hairy brush tool	Tools		毛筆ツール
+Hard light	PixelOperations		ハードライト
+Hard mix	PixelOperations		ハードミックス
+Hardness:	Tools		硬度:
 Height:	PaintWindow		高さ:
-Hide borders	PaintWindow		Hide borders
-Hides the selection borders.	PaintWindow		Hides the selection borders.
-Invert	PaintWindow		Invert
+Height:	Manipulators		高さ:
+Hide borders	PaintWindow		境界を隠す
+Hides the selection borders.	PaintWindow		選択部の境界を隠します。
+Hold SHIFT to snap to 45° angles	Tools		SHIFTを押すと、45°毎にスナップします。
+Hue	ColorSliders	For HSV color slider	色相
+Intelligent scissors	Tools		自動はさみ
+Invert	PaintWindow		反転
+Invert selection	ImageView		選択範囲の反転
 Inverts the selection	PaintWindow		選択範囲の反転
+Keep in front	Windows		最前面に表示
 Layer	PaintWindow		レイヤー
+Layer	LayerWindow		レイヤー
+Layer %ld / %ld	ImageView		レイヤー %ld / %ld
+Layer name	ImageView		レイヤー名
+Layer transparency	ImageView		レイヤーの透明度
+Layer transparency	LayerWindow		レイヤーの透明度
+Layer visibility	ImageView		レイヤーの可視性
+Layers	LayerWindow		レイヤー
+Layers	Windows		レイヤー
 Layers…	PaintWindow		レイヤー…
+Left-click for color panel, right-click to switch colors.	StatusView		左クリックでカラーパネル、右クリックでカラーを変更します。
+Left:	Manipulators		左:
+Lighten	PixelOperations		比較 (明)
+Lightness	ColorSliders	For CIELAB color sliders - also called L*a*b* color	明るさ
+Linear	Tools		リニア
+Linear burn	PixelOperations		焼き込み (リニア)
+Linear dodge	PixelOperations		覆い焼き (リニア)
+Linear light	PixelOperations		リニアライト
+Little	Tools		少
+Lock	Manipulators	Keep the aspect ratio	アスペクト比を固定
+Lock	Manipulators		固定
+Magenta	ColorSliders	For CMYK color slider	マゼンタ
+Magic wand	Tools		魔法の杖
+Making a fill.	Tools		塗りつぶし中。
+Making a selection.	Tools		選択範囲を作成中。
 Merge down	PaintWindow		下のレイヤーと統合
+Merge down	LayerWindow		下のレイヤーと統合
+Merge down	Image		下のレイヤーと統合
+Merge with layer above	Image		上のレイヤーと統合
 Merges selected layer with the layer below.	PaintWindow		レイヤーをその下のレイヤーと統合します。
+Miscellaneous	Windows		その他
+Mitchell-Netravali	ScaleUtilities		Mitchell-Netravali
+Mode	Tools		モード
+Mode:	LayerWindow		モード:
+Move the selection.	PaintWindow		選択部を移動
 Moves all layers.	PaintWindow		すべてのレイヤーを移動します。
 Moves the active layer.	PaintWindow		アクティブレイヤーを移動します。
+Much	Tools		多
+Multiply	PixelOperations		乗算
+Nearest neighbor	ScaleUtilities		ニアレストネイバー
+New color set	ColorPalette		新規カラーセット
 New project…	PaintWindow		新規プロジェクト…
-None	PaintWindow		None
+Next color set	ColorPalette	In Color Palette window	次のカラーセット
+No configuration options available.	Tools		設定オプションは利用できません。
+No data translator	Windows		データトランスレーターがありません
+No options	Windows		オプションがありません
+None	PaintWindow		無し
+None	Tools		無し
+Normal	PixelOperations		ノーマル
+Not a color set file	ColorPalette		カラーセットファイルではありません
+Not enough free memory to add a layer. You can free more memory by disabling the undo and closing other images. It is also a good idea to save the image now because running out of memory later on might make saving difficult or impossible. I am very sorry about this inconvenience.	ImageView		レイヤーを追加するのに必要な空きメモリーがありません。元に戻すことを無効にすることや他の画像を閉じることでより多くのメモリーを開放できます。ただちに作業を保存しておくのも良い考えです。それは後でメモリーが完全になくなると保存が難しくなるかできなくなるかもしれないからです。ご不便をおかけしてすみません。
 Not enough free memory to create the image. Please try again with a smaller image size.	PaintWindow		画像を作成するための十分な空きメモリーがありません。小さい画像サイズで再度試してみてください。
+Not enough free memory to finish the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		要求された効果を完了するのに必要な空きメモリーがありません。他の画像を閉じて再度試してみることができます。元に戻せる回数を減らすことや元に戻すことを無効にすることのどちらもメモリーを増やすことへの助けとなります。他に動いているアプリケーションがあるなら、それらを閉じることでより多くの空きメモリーが得られます。この時点で作業を保存しておくのも良い考えです。それはメモリが完全になくなると保存ができなくなるかもしれないからです。ご不便をおかけしてすみません。
+Not enough free memory to start the effect you requested. You may close other images and try again. Also shortening the depth of undo or disabling undo altogether helps in achieving more memory. If you have other applications running, closing them gives you more free memory. It is also a good idea to save your work at this point, because if the memory runs out completely saving might become impossible. I am very sorry about this inconvenience.	ImageView		要求された効果を開始するための十分な空きメモリがありません。他の画像を閉じて再度試してみることができます。元に戻せる回数を減らすことや元に戻すことを無効にすることのどちらもメモリを増やすことへの助けとなります。他に動いているアプリケーションがあるなら、それらを閉じることでより多くの空きメモリが得られます。この時点で作業を保存しておくのも良い考えです。それはメモリが完全になくなると保存ができなくなるかもしれないからです。ご不便をおかけしてすみません。
 Off	PaintWindow		オフ
+Off	Windows		オフ
+OK	ImageView		OK
 OK	PaintWindow		OK
+OK	Image		OK
+OK	Windows		OK
+OK	PaintApplication		OK
+OK	ColorPalette		OK
+Opaque	Manipulators		不透明
+Open	FilePanels		開く
+Open color set…	ColorPalette		カラーセットを開く…
 Open image…	PaintWindow		画像を開く…
 Open project…	PaintWindow		プロジェクトを開く…
 Opens a project from disk.	PaintWindow		ディスクからプロジェクトを開きます。
@@ -84,25 +252,62 @@ Opens the settings window.	PaintWindow		設定ウィンドウを開きます。
 Opens the tool selection window.	PaintWindow		ツール選択ウィンドウを開きます。
 Opens the tool setup window.	PaintWindow		ツール設定ウィンドウを開きます。
 Opens the window of stored brushes.	PaintWindow		ブラシが保存されたウィンドウを開きます。
+Options	Tools		オプション
+Overlay	PixelOperations		オーバーレイ
+Painting with a brush.	Tools		ブラシを使って描きます。
+Painting with a hairy brush.	Tools		毛筆ブラシを使って描きます。
 Paste as a new layer	PaintWindow		新規レイヤーとして貼り付け
 Paste as a new project	PaintWindow		新規プロジェクトとして貼り付け
 Pastes previously copied selection as a new layer.	PaintWindow		以前にコピーした選択範囲を新規レイヤーとして貼り付けます。
 Pastes previously copied selection as a new project.	PaintWindow		以前にコピーした選択範囲を新規プロジェクトとして貼り付けます。
+Picking a color.	Tools		色を採取しています。
+Pin light	PixelOperations		ピンライト
+Pressure:	Tools		圧力:
+Previous color set	ColorPalette	In Color Palette window	前のカラーセット
 Quit	PaintWindow		終了
 Quits ArtPaint.	PaintWindow		ArtPaintを終了します。
+Radial	Tools		Radial
+Random	Tools		ランダム
 Recent images	PaintWindow		最近使った画像
 Recent projects	PaintWindow		最近使ったプロジェクト
-Redo	PaintWindow		Redo
+Rectangle	Windows		四角形
+Rectangle	Tools		四角形
+Rectangle tool	Tools		四角形ツール
+Rectangle: SHIFT for square, ALT for centered	Tools		四角形: SHIFTで正方形、 ALTで中央から
+Red	Tools		レッド
+Red	ColorSliders	For RGB color sliders	レッド
+Redo	PaintWindow		やり直し
+Redo	UndoQueue		やり直し
 Redos the action that was last undone.	PaintWindow		直前の未完了の動作をやり直します。
-Resize…	PaintWindow		Resize…
-Resizes the canvas.	PaintWindow		Resizes the canvas.
+Replace pixels with	Tools		ピクセルの置き換え
+Reset Brush	Windows		ブラシをリセット
+Reset brush	Tools		ブラシをリセット
+Reset to canvas	Manipulators		キャンバスに合わせる
+Resize: Drag to resize or use number-fields. Hold SHIFT to lock aspect	Manipulators		リサイズ: ドラッグでリサイズ。または数字フィールドを使います。SHIFTを押したままにするとアスペクト比を固定します。
+Resize…	PaintWindow		リサイズ…
+Resize…	Manipulators		リサイズ…
+Resizes the canvas.	PaintWindow		キャンバスをリサイズする。
+Restore	Manipulators		元に戻す
+Rotate	Manipulators		回転
 Rotate -90°	PaintWindow		左へ90°回転
+Rotate -90°	Manipulators		左へ90°回転
 Rotate +90°	PaintWindow		右へ90°回転
+Rotate +90°	Manipulators		右へ90°回転
+Rotate selection	ImageView		選択部を回転
+Rotate selection	Manipulators		選択部を回転
+Rotate the selection.	PaintWindow		選択部を回転する。
+Rotate: Left-drag to rotate, right-click to set rotation center, SHIFT to snap angle.	Manipulators		回転: 左クリックで回転、右クリックで回転中心を設定します。SHIFTでスナップします。
 Rotate…	PaintWindow		回転…
 Rotates all layers.	PaintWindow		すべてのレイヤーを回転します。
 Rotates the active layer.	PaintWindow		アクティブレイヤーを回転します。
-Rotates the canvas 90° clockwise.	PaintWindow		Rotates the canvas 90° clockwise.
-Rotates the canvas 90° counter-clockwise.	PaintWindow		Rotates the canvas 90° counter-clockwise.
+Rotates the canvas 90° clockwise.	PaintWindow		キャンバスを右90°回転します。
+Rotates the canvas 90° counter-clockwise.	PaintWindow		キャンバスを左90°回転します。
+Rotation:	Manipulators		回転:
+Saturation	ColorSliders	For HSV color slider	彩度
+Save	ImageView		保存
+Save	FilePanels		保存
+Save color set	ColorPalette		カラーセットを保存
+Save format:	FilePanels		保存形式:
 Save image	PaintWindow		画像を保存
 Save image as…	PaintWindow		名前を付けて画像を保存…
 Save project	PaintWindow		プロジェクトを保存
@@ -111,12 +316,23 @@ Saves the image to disk.	PaintWindow		画像をディスクに保存します。
 Saves the image under its current name.	PaintWindow		画像を現在の名称で保存します。
 Saves the project to disk.	PaintWindow		プロジェクトをディスクに保存します。
 Saves the project under its current name.	PaintWindow		プロジェクトを現在の名称で保存します。
+Scale	Manipulators		拡大縮小
+Scale selection	ImageView		選択部を拡大縮小
+Scale selection	Manipulators		選択部を拡大縮小
+Scale the selection.	PaintWindow		選択部を拡大縮小する。
+Scale: Drag to resize or use number-fields.	Manipulators		拡大縮小: ドラッグでリサイズ、または数字フィールドを使用します。
 Scale…	PaintWindow		拡大縮小…
-Scales all layers.	PaintWindow		Scales all layers.
-Scales the active layer.	PaintWindow		Scales the active layer.
-Selection	PaintWindow		Selection
-Selects all non-transparent layer pixels	PaintWindow		Selects all non-transparent layer pixels
-Selects entire layer	PaintWindow		Selects entire layer
+Scales all layers.	PaintWindow		すべてのレイヤーを拡大縮小します。
+Scales the active layer.	PaintWindow		アクティブなレイヤーを拡大縮小します。
+Screen	PixelOperations		スクリーン
+Select all	ImageView		すべて選択
+Select non-transparent	ImageView		不透明部を選択
+Select none	ImageView		選択を解除
+Selection	PaintWindow		選択
+Selection tool	Tools		選択ツール
+Selection tool: SHIFT for square/circle, ALT centers selection, OPT subtracts	Tools		選択ツールl: SHIFTで正方形/円、 ALTで中心を選択、OPTで減算します。
+Selects all non-transparent layer pixels	PaintWindow		すべての不透明レイヤーピクセルを選択
+Selects entire layer	PaintWindow		レイヤー全体を選択
 Set grid	PaintWindow		グリッドを設定
 Set zoom level	PaintWindow		表示倍率を設定
 Set/Select the canvas size.	PaintWindow		キャンバスのサイズを設定または選択します。
@@ -129,267 +345,75 @@ Sets the zoom level to 25%.	PaintWindow		表示倍率を25%に設定します。
 Sets the zoom level to 400%.	PaintWindow		表示倍率を400%に設定します。
 Sets the zoom level to 50%.	PaintWindow		表示倍率を50%に設定します。
 Sets the zoom level to 800%.	PaintWindow		表示倍率を800%に設定します。
+Settings	Windows		設定
 Settings…	PaintWindow		設定…
-Shrink	PaintWindow		Shrink
+Settings…	FilePanels		設定…
+Shear:	Manipulators		傾き:
+Show brush size	Windows		ブラシサイズを表示
+Shrink	PaintWindow		縮小
+Shrink selection	ImageView		選択範囲を縮小
 Shrinks the selection in all directions.	PaintWindow		選択範囲を全方向に縮小します。
+Size:	Tools		サイズ:
+Size:	Manipulators		サイズ:
+Soft light	PixelOperations		ソフトライト
+Spray	Tools		スプレー
+Square	Tools		四角形
 Standard sizes	PaintWindow		標準サイズ
+Store Brush	Windows		ブラシを保存
+Store brush	Tools		ブラシを保存
+Straight line tool	Tools		直線ツール
+Straight line: SHIFT locks 22.5° angles	Tools		直線: SHIFTで22.5°に固定
+Text tool	Tools		テキストツール
+Text tool	Manipulators		テキストツール
+Text: Position text and set its appearance.	Manipulators		テキスト: テキストの位置決めと外観設定を行います。
+The file '%file%' is of unsupported type. You could try installing a translator for it if possible.	PaintApplication		ファイル'%file%'はサポートされていないタイプです。 可能なら、トランスレーターのインストールを試してください。
+The undo-mechanism has run out of memory.\nThe depth of undo will be limited so that the most recent events can be kept in memory. It is advisable to save your work at this point to avoid any loss of data in case the memory runs out completely.\nYou may also want to adjust the undo-depth in the settings-window.	UndoQueue		元に戻すためのメカニズムがメモリーを使い果たしました。\n直近のイベントがメモリーに残るようするため、元に戻す回数は制限されます。メモリーが完全に使い果たされた場合にデータの損失を避けるために、この時点で作業を保存しておくのを勧めます。\nまた、設定ウィンドウから元に戻せる回数を変更することもできます。
+Tolerance:	Tools		許容値:
+Tool cursor	Windows		ツールカーソル
+Tool setup	Windows		ツール設定
+Tool setup	Tools		ツール設定
 Tool setup…	PaintWindow		ツール設定…
+Tools	Windows		ツール
+Tools	Tools		ツール
 Tools…	PaintWindow		ツール…
+Top:	Manipulators		上:
+Transform: Drag to rotate, move or stretch.	FreeTransformManipulator		変形: ドラッグで回転、移動またはストレッチします。
+Translate	Manipulators		移動
+Translate selection	ImageView		選択部を移動
+Translate selection	Manipulators		選択部を移動
+Translate: Drag to move or use number-fields.	Manipulators		移動: ドラッグで移動、または数字フィールドを使用します。
 Translate…	PaintWindow		移動…
+Transparency	Windows		透明
+Transparency	Tools		透明
+Transparency tool	Tools		透明度ツール
+Transparency:	Tools		透明度:
+Transparency:	Manipulators		透明度:
+Transparent	Manipulators		透明
 Turns the grid off.	PaintWindow		グリッドをオフにします。
 Un-selects all	PaintWindow		すべて選択解除
-Undo	PaintWindow		Undo
+Undo	PaintWindow		元に戻す
+Undo	Windows		元に戻す
+Undo	UndoQueue		元に戻す
+Undo steps:	Windows		元に戻せる回数:
 Undos the previous action.	PaintWindow		以前のアクションをやり直す。
+Unlimited	Windows		無制限
+Unsaved changes!	ImageView		保存されていない変更!
 Untitled	PaintWindow		名称未設定
+Use current brush	Tools		現在のブラシを使用
+Use selection	Manipulators		選択部を使用
 User manual…	PaintWindow		ユーザーマニュアル…
+Using the airbrush.	Tools		エアブラシを使用中。
+Using the tool.	Tools		ツールを使用中。
+Value	ColorSliders	For HSV color slider - 'value' as 'color value', also called 'lightness'	値
+Vivid light	PixelOperations		ビビッドライト
 Width:	PaintWindow		幅:
+Width:	Tools		幅:
+Width:	Manipulators		幅:
 Window	PaintWindow		ウィンドウ
+Windows	Windows		ウィンドウ
+Yellow	ColorSliders	For CMYK color slider	イエロー
+Zoom	MagnificationView		ズーム
 Zoom in	PaintWindow		縮小
 Zoom out	PaintWindow		拡大
 Zooms into the image.	PaintWindow		画像を拡大表示します。
 Zooms out from the image.	PaintWindow		画像を縮小表示します。
-Add	LayerWindow		追加
-Delete	LayerWindow		削除
-Duplicate	LayerWindow		複製
-Layer	LayerWindow		レイヤー
-Layer transparency	LayerWindow		レイヤーの透明度
-Layers	LayerWindow		レイヤー
-Merge down	LayerWindow		下のレイヤーと統合
-Mode:	LayerWindow		モード:
-Add layer	Image		レイヤーを追加
-Cannot delete the only layer. Create another picture to get a fresh start.	Image		レイヤーはこれ以上削除できません。新しい画像を作成して最初から開始してください。
-Delete	Image		Delete
-Delete layer	Image		レイヤーを削除
-Merge down	Image		下のレイヤーと統合
-Merge with layer above	Image		上のレイヤーと統合
-OK	Image		OK
-Add-ons	Windows		アドオン
-Adjustable	Windows		調節可能
-Application	Windows		アプリケーション
-Brush	Windows		ブラシ
-Brushes	Windows		ブラシ
-Cancel	Windows		キャンセル
-Colors	Windows		カラー
-Colors:	Windows		カラー:
-Cross-hair cursor	Windows		クロスヘアカーソル
-Cursor	Windows		カーソル
-Datatype setup: %name%	Windows		データタイプ設定: %name%
-Defaults	Windows		デフォルト
-Delete selected brush	Windows		選択されたブラシを削除
-Drop a color from the Colors window	Windows		カラーウィンドウから色をドラッグします。
-Grid size:	Windows		グリッドサイズ:
-Keep in front	Windows		最前面に表示
-Layers	Windows		レイヤー
-Miscellaneous	Windows		その他
-No data translator	Windows		データトランスレーターがありません
-No options	Windows		オプションがありません
-Off	Windows		オフ
-OK	Windows		OK
-Settings	Windows		設定
-Tool cursor	Windows		ツールカーソル
-Tool setup	Windows		ツール設定
-Tools	Windows		ツール
-Transparency	Windows		透明
-Undo	Windows		元に戻す
-Undo steps:	Windows		元に戻せる回数:
-Unlimited	Windows		無制限
-Windows	Windows		ウィンドウ
-Adjustable width	Tools		幅を調節可能
-Adjusting the layer's transparency.	Tools		レイヤーの透明度を調整します。
-Airbrush	Tools		エアブラシ
-Airbrush tool	Tools		エアブラシツール
-Alpha	Tools		アルファ
-Amount of paint:	Tools		ペイント量:
-Angle:	Tools		角度:
-Aspect:	Tools		アスペクト:
-Background color	Tools		背景色
-Blue	Tools		ブルー
-Blur tool	Tools		ぼかしツール
-Blurring the image.	Tools		画像をぼかします。
-Brush tool	Tools		ブラシツール
-Click to place the text.	Tools		クリックしてテキストを配置します。
-Click to use the tool.	Tools		クリックしてツールを使います。
-Color picker tool	Tools		カラーピッカーツール
-Color picker window	Tools		Color picker window
-Color variance:	Tools		色変動:
-Continuous	Tools		連続
-Drag the text to correct position and set its appearance.	Tools		テキストをドラッグして位置を修正し、外観を設定します。
-Drawing a freehand line.	Tools		フリーハンドの線を描く。
-Drawing a rectangle.	Tools		四角形を描く。
-Drawing a straight line.	Tools		直線を描く。
-Drawing an ellipse.	Tools		楕円を描く。
-Ellipse	Tools		楕円
-Ellipse tool	Tools		楕円ツール
-Ellipse: SHIFT for circle, ALT for centered	Tools		Ellipse: SHIFT for circle, ALT for centered
-Enable antialiasing	Tools		アンチエイリアスを有効にする
-Enable gradient	Tools		グラデーションを有効にする
-Enable preview	Tools		プレビューを有効にする
-Enable rotation	Tools		回転を有効にする
-Eraser tool	Tools		消しゴムツール
-Erasing pixels.	Tools		ピクセルを消去します。
-Fill ellipse	Tools		楕円の塗りつぶし
-Fill rectangle	Tools		四角形の塗りつぶし
-Fill tool	Tools		塗りつぶしツール
-Flood fill	Tools		塗りつぶし
-Flow:	Tools		フロー:
-Freehand	Tools		フリーハンド
-Freehand line tool	Tools		フリーハンドツール
-Green	Tools		グリーン
-Hairs:	Tools		毛量:
-Hairy brush tool	Tools		毛筆ツール
-Hardness:	Tools		硬度:
-Hold SHIFT to snap to 45° angles	Tools		Hold SHIFT to snap to 45° angles
-Intelligent scissors	Tools		自動はさみ
-Little	Tools		少
-Magic wand	Tools		魔法の杖
-Making a fill.	Tools		塗りつぶし中。
-Making a selection.	Tools		選択範囲を作成中。
-Mode	Tools		モード
-Much	Tools		多
-No configuration options available.	Tools		設定オプションは利用できません。
-None	Tools		無し
-Options	Tools		オプション
-Painting with a brush.	Tools		ブラシを使って描きます。
-Painting with a hairy brush.	Tools		毛筆ブラシを使って描きます。
-Picking a color.	Tools		色を採取しています。
-Random	Tools		ランダム
-Rectangle	Tools		四角形
-Rectangle tool	Tools		四角形ツール
-Rectangle: SHIFT for square, ALT for centered	Tools		Rectangle: SHIFT for square, ALT for centered
-Red	Tools		レッド
-Replace pixels with	Tools		ピクセルの置き換え
-Reset brush	Tools		ブラシをリセット
-Selection tool	Tools		選択ツール
-Selection tool: SHIFT for square/circle, ALT centers selection, OPT subtracts	Tools		Selection tool: SHIFT for square/circle, ALT centers selection, OPT subtracts
-Size:	Tools		サイズ:
-Speed:	Tools		スピード:
-Spray	Tools		スプレー
-Store brush	Tools		ブラシを保存
-Straight line tool	Tools		直線ツール
-Straight line: SHIFT locks 22.5° angles	Tools		Straight line: SHIFT locks 22.5° angles
-Text tool	Tools		テキストツール
-Tolerance:	Tools		許容値:
-Tool setup	Tools		ツール設定
-Tools	Tools		ツール
-Transparency	Tools		透明
-Transparency tool	Tools		透明度ツール
-Using the airbrush.	Tools		エアブラシを使用中。
-Using the tool.	Tools		ツールを使用中。
-Width:	Tools		幅:
-Alpha	ColorSliders	For color sliders	透過度
-Black	ColorSliders	For CMYK color slider	ブラック
-Blue	ColorSliders	For RGB color sliders	ブルー
-Channel a	ColorSliders	For CIELAB color sliders - also called L*a*b* color	チャンネル a
-Channel b	ColorSliders	For CIELAB color sliders - also called L*a*b* color	チャンネル b
-Cyan	ColorSliders	For CMYK color slider	シアン
-Green	ColorSliders	For RGB color sliders	グリーン
-Hue	ColorSliders	For HSV color slider	色相
-Lightness	ColorSliders	For CIELAB color sliders - also called L*a*b* color	明るさ
-Magenta	ColorSliders	For CMYK color slider	マゼンタ
-Red	ColorSliders	For RGB color sliders	レッド
-Saturation	ColorSliders	For HSV color slider	彩度
-Value	ColorSliders	For HSV color slider - 'value' as 'color value', also called 'lightness'	値
-Yellow	ColorSliders	For CMYK color slider	イエロー
-Angle:	Manipulators		角度:
-Change the transparency with the slider.	Manipulators		スライダーで透明度を変更します。
-Change transparency…	Manipulators		透明度を変更…
-Crop: Use handles or number-fields to set new borders. SHIFT locks aspect ratio.	Manipulators		Crop: Use handles or number-fields to set new borders. SHIFT locks aspect ratio.
-Crop…	Manipulators		トリミング…
-Enable antialiasing	Manipulators		アンチエイリアスを有効にする
-Filter:	Manipulators		Filter:
-Flip horizontally	Manipulators		水平方向に反転
-Flip vertically	Manipulators		垂直方向に反転
-Font:	Manipulators		フォント:
-Height:	Manipulators		高さ:
-Left:	Manipulators		左:
-Lock	Manipulators	Keep the aspect ratio	固定
-Lock	Manipulators		Lock
-Opaque	Manipulators		不透明
-Reset to canvas	Manipulators		Reset to canvas
-Resize: Drag to resize or use number-fields. Hold SHIFT to lock aspect	Manipulators		Resize: Drag to resize or use number-fields. Hold SHIFT to lock aspect
-Resize…	Manipulators		Resize…
-Restore	Manipulators		元に戻す
-Rotate -90°	Manipulators		左へ90°回転
-Rotate +90°	Manipulators		右へ90°回転
-Rotate: Left-drag to rotate, right-click to set rotation center, SHIFT to snap angle.	Manipulators		Rotate: Left-drag to rotate, right-click to set rotation center, SHIFT to snap angle.
-Rotate…	Manipulators		回転…
-Rotation:	Manipulators		回転:
-Scale: Drag to resize or use number-fields.	Manipulators		Scale: Drag to resize or use number-fields.
-Scale…	Manipulators		拡大縮小…
-Shear:	Manipulators		傾き:
-Size:	Manipulators		サイズ:
-Text tool	Manipulators		テキストツール
-Text: Position text and set its appearance.	Manipulators		Text: Position text and set its appearance.
-Top:	Manipulators		上:
-Translate: Drag to move or use number-fields.	Manipulators		Translate: Drag to move or use number-fields.
-Translate…	Manipulators		移動…
-Transparency:	Manipulators		透明度:
-Transparent	Manipulators		透明
-Use selection	Manipulators		Use selection
-Width:	Manipulators		幅:
-ArtPaint	System name		ArtPaint
-ArtPaint is a painting and image-processing program for Haiku.	PaintApplication		ArtPaintは、Haiku用のペイントおよび画像処理ソフトです。
-ArtPaint project	PaintApplication	MIME type short description	ArtPaintプロジェクト
-ArtPaint project format containing layers etc.	PaintApplication	MIME type long description	ArtPaintプロジェクトフォーマット(レイヤーなどを含む)。
-ArtPaint: Open image…	PaintApplication		ArtPaint: 画像を開く…
-ArtPaint: Open project…	PaintApplication		ArtPaint: プロジェクトを開く…
-OK	PaintApplication		OK
-The file %file% is of unsupported type. You could try installing a translator for it if possible.	PaintApplication		ファイル %file% はサポートされていない形式です。可能であればトランスレーターのインストールを試してください。
-ArtPaint: Open color set…	ColorPalette		ArtPaint: カラーセットを開く…
-Cannot delete the only color set.	ColorPalette		カラーセットはこれ以上削除できません。
-Cannot write to file	ColorPalette		ファイルに書き込めません
-Click to select a painting color.	ColorPalette		クリックしてペイントする色を選択します。
-Color model	ColorPalette		カラーモデル
-Color set	ColorPalette		カラーセット
-Colors	ColorPalette		カラー
-Delete current set	ColorPalette		現在のカラーセットを削除
-Error reading file	ColorPalette		ファイルの読み込みに失敗しました
-File structure corrupted	ColorPalette		ファイル構造が壊れています
-New color set	ColorPalette		新規カラーセット
-Next color set	ColorPalette	In Color Palette window	次のカラーセット
-Not a color set file	ColorPalette		カラーセットファイルではありません
-OK	ColorPalette		OK
-Open color set…	ColorPalette		カラーセットを開く…
-Previous color set	ColorPalette	In Color Palette window	前のカラーセット
-Save color set	ColorPalette		カラーセットを保存
-ArtPaint: Save image	FilePanels		ArtPaint: 画像を保存
-Cancel	FilePanels		キャンセル
-Choose format	FilePanels		形式を選択
-Open	FilePanels		開く
-Save	FilePanels		保存
-Save format:	FilePanels		保存形式:
-Settings…	FilePanels		設定…
-Bicubic	ScaleUtilities		Bicubic
-Bicubic (B-spline)	ScaleUtilities		Bicubic (B-spline)
-Bicubic (Catmull-Rom)	ScaleUtilities		Bicubic (Catmull-Rom)
-Bilinear	ScaleUtilities		Bilinear
-Mitchell-Netravali	ScaleUtilities		Mitchell-Netravali
-Nearest neighbor	ScaleUtilities		Nearest neighbor
-Bummer	UndoQueue		残念
-Redo	UndoQueue		やり直し
-The undo-mechanism has run out of memory.\nThe depth of undo will be limited so that the most recent events can be kept in memory. It is advisable to save your work at this point to avoid any loss of data in case the memory runs out completely.\nYou may also want to adjust the undo-depth in the settings-window.	UndoQueue		元に戻すためのメカニズムがメモリーを使い果たしました。\n直近のイベントがメモリーに残るようするため、元に戻す回数は制限されます。メモリーが完全に使い果たされた場合にデータの損失を避けるために、この時点で作業を保存しておくのを勧めます。\nまた、設定ウィンドウから元に戻せる回数を変更することもできます。
-Undo	UndoQueue		元に戻す
-Color burn	PixelOperations		焼き込み
-Color dodge	PixelOperations		覆い焼き
-Darken	PixelOperations		比較 (暗)
-Difference	PixelOperations		差の絶対値
-Dissolve	PixelOperations		ディザ合成
-Divide	PixelOperations		除算
-Exclusion	PixelOperations		除外
-Hard light	PixelOperations		ハードライト
-Hard mix	PixelOperations		ハードミックス
-Lighten	PixelOperations		比較 (明)
-Linear burn	PixelOperations		焼き込み (リニア)
-Linear dodge	PixelOperations		覆い焼き (リニア)
-Linear light	PixelOperations		リニアライト
-Multiply	PixelOperations		乗算
-Normal	PixelOperations		ノーマル
-Overlay	PixelOperations		オーバーレイ
-Pin light	PixelOperations		ピンライト
-Screen	PixelOperations		スクリーン
-Soft light	PixelOperations		ソフトライト
-Vivid light	PixelOperations		ビビッドライト
-Free 2D transform	FreeTransformManipulator		自由な2D移動
-Transform: Drag to rotate, move or stretch.	FreeTransformManipulator		Transform: Drag to rotate, move or stretch.
-Left-click for color panel, right-click to switch colors.	StatusView		左クリックでカラーパネル、右クリックでカラーを変更します。
-Zoom	MagnificationView		ズーム
